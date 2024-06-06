@@ -1,5 +1,5 @@
 Exicute before running
 
 ```sql
- ./db/userinfo.sql
+ './db/userinfo.sql'
 ```
