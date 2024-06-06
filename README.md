@@ -1,1 +1,5 @@
-Exicute './db/userinfo.sql' before running
+Exicute before running
+
+'''bash
+'./db/userinfo.sql'
+'''
