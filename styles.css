@@ -1,0 +1,66 @@
+@import "utilities.css";
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+:root {
+  --primary: #3dcfd3;
+  --dark: #499249;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+}
+label {
+  color: var(--dark); /*you can change the color */
+}
+body {
+  font-family: "kode mono";
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background: var(--pure);
+}
+
+header nav .left a {
+  color: var(--dark);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+header nav .left a:hover {
+  color: var(--primary);
+}
+header nav .profile-picture {
+  margin-right: 3rem;
+}
+header {
+  background: var(--dark);
+  height: 1024px;
+}
+
+.body-tag {
+  margin-top: 10px;
+  margin-left: 10px;
+  background: var(--pure);
+  width: auto;
+  height: 880px;
+}
+.starlabel label:after {
+  content: " *";
+  color: red;
+}
+.step {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.step-number {
+  font-weight: bold;
+  margin-right: 10px;
+}
