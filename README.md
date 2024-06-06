@@ -1,1 +1,1 @@
-Exicute './db/usertable.sql' before running//
+Exicute './db/usertable.sql' before running
