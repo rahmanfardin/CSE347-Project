@@ -1,1 +1,1 @@
-Exicute './db/usertable.sql' before running
+Exicute './db/userinfo.sql' before running
