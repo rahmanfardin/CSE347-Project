@@ -1,5 +1,5 @@
 Exicute before running
 
-'''bash
-'./db/userinfo.sql'
-'''
+```sql
+ ./db/userinfo.sql
+```
