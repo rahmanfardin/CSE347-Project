@@ -51,9 +51,7 @@ CREATE TABLE `application` (
 --
 
 INSERT INTO `application` (`appid`, `username`, `fname`, `lname`, `fathername`, `mothername`, `DOB`, `email`, `phone`, `nid`, `address`, `status`, `printStatus`) VALUES
-(19, 'user1', 'fardin', 'Rahman', 'Azizur Rahman', 'dspijasoifjoi', '2024-05-14', 'mohammadfardinrahman@gmail.com', '01601327346', 'fdfasfasdfd', 'house 305, east rampura', 'approved', 'not'),
-(22, 'ntn', 'fsafd', 'fasfds', 'fasfafdsfasddf', 'ffdsfas', '2024-05-09', 'fdsfsdf@gmail.com', 'fasdfsdaf', 'ffasfsdffasdf', 'fafdfasdf', 'approved', 'not'),
-(23, 'reemu', 'Redita Sultana', 'Reemu', 'XYZ', 'ABC', '2002-07-22', 'reemu1409@gmail.com', '0171000000', '123456789', 'Dhaka r bairer Gram', 'approved', 'not');
+
 
 --
 -- Triggers `application`
@@ -110,9 +108,6 @@ CREATE TABLE `passport` (
 --
 
 INSERT INTO `passport` (`PassportID`, `fname`, `lname`, `fathername`, `mothername`, `email`, `phone`, `nid`, `address`, `username`, `DOB`, `DOD`, `DOE`) VALUES
-(10, 'fardin', 'Rahman', 'Azizur Rahman', 'dspijasoifjoi', 'mohammadfardinrahman@gmail.com', '01601327346', 'fdfasfasdfd', 'house 305, east rampura', 'user1', '2024-05-14', '2024-05-30', '2029-05-30'),
-(12, 'fsafd', 'fasfds', 'fasfafdsfasddf', 'ffdsfas', 'fdsfsdf@gmail.com', 'fasdfsdaf', 'ffasfsdffasdf', 'fafdfasdf', 'ntn', '2024-05-09', '2024-06-01', '2029-06-01'),
-(13, 'Redita Sultana', 'Reemu', 'XYZ', 'ABC', 'reemu1409@gmail.com', '0171000000', '123456789', 'Dhaka r bairer Gram', 'reemu', '2002-07-22', '2024-06-06', '2029-06-06');
 
 --
 -- Triggers `passport`
