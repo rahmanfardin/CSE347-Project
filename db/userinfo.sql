@@ -288,15 +288,7 @@ CREATE TABLE `usertable` (
 --
 
 INSERT INTO `usertable` (`id`, `name`, `email`, `username`, `password`, `userType`) VALUES
-(5, 'Fardin Rahman', 'mfardinr@gmail.com', 'neutronslayer', '464f46564cdd937ff3e3e64f605fa70ac3b822e952a55a924adee933271f32d0', 'admin'),
-(13, 'admin1', 'admin1@gmail.com', 'admin1', '25f43b1486ad95a1398e3eeb3d83bc4010015fcc9bedb35b432e00298d5021f7', 'admin'),
-(18, 'auth1', 'auth1@gmail.com', 'auth1', '31a433abae24092df8636e752d03f0dc1d08b5e292549b68eb5f64755f38903c', 'auth'),
-(19, 'user1', 'user1@gmail.com', 'user1', '0a041b9462caa4a31bac3567e0b6e6fd9100787db2ab433d96f6d178cabfce90', 'user'),
-(20, 'approver1', 'approver1@gmail.com', 'approver1', 'e973de4808e055b3238a774fbfba4bea8f563b24ff0d60fdb84023588251786f', 'app'),
-(21, 'user2', 'user2@gmail.com', 'user2', '6025d18fe48abd45168528f18a82e265dd98d421a7084aa09f61b341703901a3', 'user'),
-(22, 'NTN', 'NTN@gmail.com', 'ntn', '86475f5e72acb469f359fa04817d701b5eb7eb380f1ddb635292b7454cb10ce7', 'user'),
-(23, 'Redita Sultana', 'redita1409@gmail.com', 'reemu', 'a3ad2fc989d361b3692d13c2e25d2db6aa057fe44cbe100ad3561f8534ed3cbf', 'user'),
-(24, 'Fardin Rahman', 'mohammadfardinrahman@gmail.com', 'fardin', '24b625baf04f34f08deafbd3b00f1a4869fe3d314ee766fa1f922bb92b483492', 'user');
+
 
 --
 -- Indexes for dumped tables
